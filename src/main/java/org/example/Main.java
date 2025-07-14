@@ -32,7 +32,7 @@ public class Main{
         System.out.printf("Grade Counts: A:%d B:%d C:%d D:%d F:%d %n",count[0],count[1],count[2],count[3],count[4]);
         ArrayList<String> topStudents = top_student(names, grades);
         int max_grade = Collections.max(grades);
-        System.out.printf("Top Student(s): %s(%d)%n", String.join(", ", topStudents),max_grade);
+        System.out.printf("Top Student(s): %s (%d)%n", String.join(", ", topStudents),max_grade);
     }
 
     public static char letterGrade(int grade){
